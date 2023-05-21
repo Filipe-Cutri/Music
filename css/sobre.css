@@ -1,0 +1,168 @@
+body {
+    background: linear-gradient(90deg, rgba(255, 0, 110, 1) 0%, rgba(131, 56, 236, 1) 69%, rgba(11, 182, 255, 11) 100%);
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  
+  /* Cores Home/Artistas/Sobre/Inscreva-se/Login */
+  a {
+    color: #ffffff;
+  }
+  
+  a:hover {
+    color: rgba(131, 56, 236, 1);
+    transition-duration: 0.2s;
+  }
+  
+  h1, h2 {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+  }
+  
+  .u {
+    color: rgba(131, 56, 236, 1);
+  }
+  
+  ul {
+    color: #414040;
+    font-size: 2.5vh;
+    margin: 5%;
+  }
+  
+  .button_login {
+    color: #000000 !important;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .button_login:hover {
+    background-color: rgb(202, 202, 202);
+    border-color: rgb(202, 202, 202);
+    transition: 1.2s;
+  }
+  
+  #nav_text {
+    text-align: center;
+    padding: 2%;
+    font-size: 2.5vh;
+    background-color: #000000;
+  }
+  
+  .nav_row {
+    display: flex;
+    align-items: center;
+  }
+
+  .cor{
+    color: rgba(131, 56, 236, 1);
+  }
+
+  .secao1{
+    margin: 5%;
+    padding: 3%;
+    width: 90%;
+    border-radius: 40px;
+    background-color: #000000;
+    color: white;
+    height: 870px;
+    box-shadow: 5px 5px 5px 0px rgb(22, 22, 22);
+    display: flex;
+    border-top: 5px ridge white;
+    border-bottom: 5px ridge white;
+  }
+
+  .sobre{
+    font-size: large;
+    max-width: 1100px;
+    text-align: justify;
+    line-height: 30px;
+  }
+
+  .secao1 img{
+    margin-top: 120px;
+    width: 600px;
+    height: 500px;
+    border-radius: 2%;
+  }
+
+  #imgmusic {
+    display: flex;
+    padding-right: 100px;
+    float: left;
+  }
+
+  .secao2{
+    text-align: center;
+    margin: 5%;
+    padding: 3%;
+    width: 90%;
+    background-color: #000000;
+    color: white;
+    box-shadow: 5px 5px 5px 0px rgb(22, 22, 22);
+    display: block;
+    border-top: 5px ridge white;
+    border-bottom: 5px ridge white;
+    border-radius: 40px;
+  }
+
+  .desenvolvedores {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+
+  .desenvolvedores img {
+	margin: 10px;
+	max-width: 250px;
+	max-height: 300px;
+	border: 2px solid #ffffff;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px #ffffff;
+  }
+
+  figure{
+	text-align: center;
+	border: 3px black;
+	margin: 5px;
+  }
+
+  figcaption{
+	text-shadow: 0px 0px 10px #ffffff;
+	font-weight: bold;
+  }
+
+  figure:hover{
+	font-size: 18px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 20px;
+    font-size: 14px;
+    color: #555555;
+  }
+  
+  .footer p {
+    text-align: center;
+    margin: 0;
+  }
+  
+  .footer script {
+    float: right;
+  }
+
+  
+  
+  
+  
+
+
+
+
+
+
+    

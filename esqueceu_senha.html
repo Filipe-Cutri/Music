@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redefinir sua senha</title>
+    <link rel="stylesheet" href="css/esqueceu_senha.css"></link>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <script src="script/esqueceu_senha.js"></script>
+</head>
+<body id="fundo">
+
+    <header>
+        <nav>
+            <h1>M<span id="u-music">u</span>.sic</h1>
+                <ul>
+                </ul>
+        </nav>
+
+    </header>
+
+    <form action= "/submit-form" method="post">
+        <fieldset id="sombra" class="central">
+            <h1>Redefinição de senha</h1>
+            <h2>Insira seu nome de usuário do M<span id="u-music">u</span>.sic ou o endereço de e‑mail que você usou para se registrar. Vamos enviar um e‑mail com seu nome de usuário e um link para você redefinir sua senha.</h2>
+            <br>
+            <label for="Email" id="texto-form">E-mail</label>
+            <input type="email" id="email" name="email" required> 
+            <br>
+            <br>
+            <button type="submit" id="botao">Enviar</button>
+            <br>
+            <button type="" id="botao" onclick="ExibirAlerta()">Enviar um novo Email</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

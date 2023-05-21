@@ -1,0 +1,109 @@
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 110, 1) 0%,
+    rgba(131, 56, 236, 1) 69%,
+    rgba(11, 182, 255, 11) 100%
+  );
+  font-family: "Roboto Condensed", sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5%;
+  margin-bottom: 5%;
+  height: 100%;
+  font-size: 25px;
+}
+
+#u-music {
+  color: rgba(131, 56, 236, 1);
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0px;
+  margin-right: 40px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(131, 56, 236, 1);
+  transition-duration: 0.2s;
+}
+
+#sombra {
+  background-color: black;
+  width: 1200px; /* Defina a largura do elemento */
+  height: 600px; /* Defina a altura do elemento */
+  margin: 0 auto; /* Define as margens automáticas para centralizar horizontalmente */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Define a sombra do elemento */
+  border-radius: 40px;
+  margin-bottom: 35px;
+}
+
+#texto {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.central {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#botao {
+  background-color: rgba(131, 56, 236, 1);
+  color: white;
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 10px 50px;
+  border: 1px solid rgba(131, 56, 236, 1);
+  margin-bottom: 10%;
+  font-weight: bold;
+}
+
+#botao:hover {
+  background-color: rgb(155, 108, 219);
+  color: white;
+  border: 1px solid rgb(155, 108, 219);
+  font-weight: bold;
+}
+
+#link {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.login {
+  display: inline-block;
+  padding: 10px 15px;
+  margin-top: 2px;
+  margin-bottom: 40px;
+  background-color: rgba(131, 56, 236, 1);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  width: 200px;
+  height: 20px;
+}
+
+.texto-login {
+  color: white;
+  font-size: 15px;
+}

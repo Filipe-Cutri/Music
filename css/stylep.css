@@ -1,0 +1,227 @@
+h1 {
+  color: rgb(255, 255, 255);
+}
+
+body {
+  background: rgb(255, 0, 110);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 110, 1) 0%,
+    rgba(131, 56, 236, 1) 69%,
+    rgba(11, 182, 255, 11) 100%
+  );
+  background-color: rgb(48, 44, 44);
+  font-family: "Roboto Condensed", sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/*header menu superior */
+
+#nav_text {
+  text-align: center;
+  background-color: #000000;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+}
+.u {
+  color: rgba(131, 56, 236, 1);
+}
+
+.nav_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+header h1 {
+  display: flex;
+  align-content: center;
+  margin-left: 25px;
+  color: rgb(255, 255, 255);
+}
+
+.button_logoff {
+  color: #000000 !important;
+  background-color: rgba(131, 56, 236, 1) !important;
+  border-color: rgba(131, 56, 236, 1) !important;
+}
+
+.button_logoff:hover {
+  background-color: rgb(175, 144, 218) !important;
+  border-color: rgb(175, 144, 218) !important;
+  transition: 0.2s !important;
+}
+
+/* fixa o player */
+
+.player {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #000000cb;
+  z-index: 2;
+}
+
+/* alinha o player na horizontal e formata */
+
+.player ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.player li {
+  display: block;
+  padding: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.player img {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Albuns e artistas */
+
+.divisa {
+  background: rgb(255, 0, 110);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 110, 1) 0%,
+    rgba(131, 56, 236, 1) 69%,
+    rgba(11, 182, 255, 11) 100%
+  );
+  background-color: rgb(48, 44, 44);
+  width: 100%;
+  height: 66px;
+}
+
+.textolinha {
+  text-align: start;
+  color: rgb(255, 255, 255);
+}
+
+.Linha1 {
+  background: #000000;
+  display: flex;
+  margin-left: 200px;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: baseline;
+}
+
+.imagem {
+  width: 250px;
+  margin: 10px;
+}
+
+.imagem img {
+  width: 100%;
+  border-radius: 20%;
+}
+
+.Linha2 {
+  background: #000000;
+  display: flex;
+  margin-left: 200px;
+  margin-top: 10px;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.Linha2 p {
+  color: white;
+}
+
+/* parte do botao na imagem */
+
+.botao {
+  border: #00000000;
+  background-color: #00000000;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.7s ease-in-out;
+}
+
+.imagem {
+  position: relative;
+}
+
+.imagem p {
+  color: white;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+}
+
+.imagem:hover .botao {
+  display: block;
+  opacity: 1;
+}
+
+/* menu vertical a esquerda */
+
+.menu-vertical {
+  position: fixed;
+  width: 200px;
+  background-color: #000000;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  margin-top: 0;
+}
+
+.menu-vertical ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-vertical li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.menu-vertical li p {
+  color: white;
+  padding: 10px;
+}
+
+.menu-vertical li p strong {
+  color: purple;
+}
+
+.menu-vertical img {
+  width: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.menu-vertical p {
+  margin: 0;
+}
+
+.navega {
+  margin-top: 20px;
+}

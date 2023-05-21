@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Music</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/cadastro.css"></link>
+    <script src="script/cadastro.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>M<span id="u-music">u</span>.sic</h1>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="player.html">Web Player</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+        </nav>
+
+    </header>
+
+    <form id="texto" action= "/submit-form" method="post">
+        <fieldset id="sombra" class="central">
+            <h1><legend>Inscreva-se no M<span id="u-music">u</span>.sic</legend></h1>
+
+            <br>
+            <label for="name" id="name">Como devemos chamar <span id="vc">você?</span></label>
+            <br>
+            <br>
+            <input type="name" name="name" id="name" placeholder="Digite seu nome"/>
+            <br>
+            <br>
+            <label for="email" id="email">Qual é o seu <span id="em">e-mail?</span></label>
+            <br>
+            <br>
+            <input type="email" name="email" id="email" placeholder="Digite seu E-mail"/>
+            <br>
+            <br>
+            <label for="Senha" id="senha">Digite sua <span id="ss">senha:</span></label>
+            <br>
+            <br>
+            <input type="password" id="senha" name="senha" minlength="6" required placeholder="Digite sua senha">
+            <br>
+            <br>
+            <label for="Senha" id="senha">Confirme sua <span id="s1">senha:</span></label>
+            <br>
+            <br>
+            <input type="password" id="senha" name="senha" minlength="6" required placeholder="Confirme sua senha">
+            <br>
+            <br>
+            <label for="idade" id="idade">Qual sua <span id="ide">idade?</span></label>
+            <br>
+            <br>
+            <input type="number" name="idade" placeholder="Digite a sua idade" required/>
+            <br>
+            <br>
+            <label for="genero" id="genero">Qual é o seu <span id="gn">gênero?</span></label>
+            <br>
+            <br>
+            <select name="genero">
+                <option value="mc">Masculino</option>
+                <option value="fm">Feminino</option>
+                <option value="nb">Não binário</option>
+                <option value="ot">Outros</option>
+                <option value="pd">Prefiro não dizer</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <button type="submit" id="botao" onclick="parabens()">Registrar-se</button>
+            <br>
+        </fieldset>
+    </form>
+    
+    
+</body>
+</html>

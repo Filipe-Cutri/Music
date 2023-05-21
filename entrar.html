@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Music</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/entrar.css"></link>
+    <script src="entrar.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>M<span id="u-music">u</span>.sic</h1>
+                <ul>
+                    <li><a href="home.html">Início</a></li>
+                    <li><a href="player.html">Web Player</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="cadastro.html">Inscrever-se</a><li>
+                </ul>
+        </nav>
+
+    </header>
+
+
+    <form id="texto" action= "/submit-form" method="post">
+        <fieldset id="sombra" class="central">
+            <h1><legend>Entrar no M<span id="u-music">u</span>.sic</legend></h1>
+            <br>
+
+            <a href="https://accounts.google.com/o/oauth2/v2/auth/identifier?response_type=code&access_type=offline&client_id=1046568431490-ij1gi5shcp2gtorls09frkc56d4mjbe2.apps.googleusercontent.com&state=AQD3IG%2FA7i%2BiJ9%2FVclj4vhowr9T%2F9Z%2BGch6zf1nfO%2BZ52mn8ANTOMBUE7RIIVUJ4HYBB8dTgnkUBv569lMeKHh%2BSa9zU441sUQ%2FQFb8IK9pLhAuBKD2WhaeFgapRop%2Fobc2sEx5Z745MImr7WinayQqickszN6CXSFOwCrlpIXsn7vV5vrdzT%2B9CaXwhWgqeCYQ4u7GpaXikPcUBIOK0Pxc0wx%2FYIipBw%2F32%2Fydn%2FU8apEvz%2BUMnxHxjr7bGQd3sCoQ7ITKQfdRzNE4IDgxpplKM6vbMdBjMv20q08ofQ8xq4nQMVxS10niwUzDXl5t4cGXCftzTymLkP1Jkp%2F4PSKRqUHsLi%2BlGNhlvmD9Tx7FNatdQtgVFO0tOpPGniZYL&scope=profile%20email%20openid&redirect_uri=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Fgoogle%2Fredirect&service=lso&o2v=2&flowName=GeneralOAuthFlow" class="login">Continuar com o Google</a>
+    
+            <br>
+            <a href="https://web.facebook.com/login.php?skip_api_login=1&api_key=174829003346&kid_directed_site=0&app_id=174829003346&signed_next=1&next=https%3A%2F%2Fweb.facebook.com%2Fv7.0%2Fdialog%2Foauth%3Fclient_id%3D174829003346%26state%3DAQBCxbKEHhM39emeHrYJWN3OdDY9s2Dp7lZHFJZs%252BU0Ci%252F4LwG2%252BBcuzQacJZVVquw6Yrm5gdWhHMikGs16i10nX1Qei4lY%252Bwm1bt%252BrF%252B0xQjmzVd4oMVVvQCSdTT3OxBKB5z4Xo9ymKp50v4BdKeBQ1j%252BDmmmTBvk6EjvksU46vEoUpkSWHGxTLseDIbqBtqHDxcT15B2NCrLBvO5HMcq1To8%252BOp70CqO%252Fbn6MzEUkDKHXofMfCZKuXoRSraTlSdHq1VMQonQKaocHBvThTjeAYRaayq%252B6DAk4iJqc5CqIEOXjLsObicRBLqSLJNgmXi72mYOs%252B%252FLQ4UCng4rFt9XgSfgzrOCL6jSm%252Fbu%252BlH5ai7rZI5vnepu0rUs3xWeP1%26redirect_uri%3Dhttps%253A%252F%252Faccounts.spotify.com%252Flogin%252Ffacebook%252Fredirect%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D25d77564-e831-4156-991d-c591ff62d9a3%26tp%3Dunspecified&cancel_url=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Ffacebook%2Fredirect%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3DAQBCxbKEHhM39emeHrYJWN3OdDY9s2Dp7lZHFJZs%252BU0Ci%252F4LwG2%252BBcuzQacJZVVquw6Yrm5gdWhHMikGs16i10nX1Qei4lY%252Bwm1bt%252BrF%252B0xQjmzVd4oMVVvQCSdTT3OxBKB5z4Xo9ymKp50v4BdKeBQ1j%252BDmmmTBvk6EjvksU46vEoUpkSWHGxTLseDIbqBtqHDxcT15B2NCrLBvO5HMcq1To8%252BOp70CqO%252Fbn6MzEUkDKHXofMfCZKuXoRSraTlSdHq1VMQonQKaocHBvThTjeAYRaayq%252B6DAk4iJqc5CqIEOXjLsObicRBLqSLJNgmXi72mYOs%252B%252FLQ4UCng4rFt9XgSfgzrOCL6jSm%252Fbu%252BlH5ai7rZI5vnepu0rUs3xWeP1%23_%3D_&display=page&locale=pt_BR&pl_dbl=0" class="login">Continuar com o Facebook</a>
+
+            <br>
+            <label for="Email" id="texto">E-mail</label>
+            <input type="text" id="email" name="email" required> 
+            <br> 
+            <br>
+            <label for="Senha" id="texto">Senha</label>
+            <input type="password" id="senha" name="senha" minlength="6" required>
+            <br> 
+            <br>
+            <button type="submit" id="botao" onclick="Cokies()">Entrar</button>
+            <br>
+            <a href="esqueceu_senha.html"  id="link">Esqueceu a sua senha</a>
+            <p id="link">Não tem uma conta ? <a href="">Inscreva-se no M<span id="u-music">u</span>.sic</a></p>
+        </fieldset>
+    </form>
+
+    
+    
+</body>
+</html>
