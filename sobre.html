@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="script/home.js"></script>
+    <!--Essa meta tag define a configuração da viewport, que controla como o conteúdo é dimensionado e exibido em dispositivos móveis.-->
     <title>Sobre Nós</title>
     <link
       rel="stylesheet"
@@ -12,47 +12,43 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
+    <!--Esse link importa uma folha de estilo CSS do Bootstrap, que será aplicada ao documento HTML. O Bootstrap é um framework popular para desenvolvimento web.-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap"
       rel="stylesheet"
     />
-
-    <link rel="stylesheet" href="css/sobre.css" />
+    <link rel="stylesheet" href="Sobre.css" />
     <link rel="shortcut icon" href="Imagens/Icon.png" type="image/x-icon" />
   </head>
 
   <body>
     <header>
-      <!-- menu -->
       <div id="nav_text">
         <div class="row nav_row">
+          <!--Abre um <div> com as classes "row" e "nav_row". Essas classes são usadas para criar uma linha no sistema de grade do Bootstrap.-->
           <div class="col-sm-7">
-            <h1>
-              M
-              <div class="u">u</div>
-              .sic
-            </h1>
+            <!--Abre um <div> com a classe "col-sm-7". Isso cria uma coluna com largura 7 no sistema de grade do Bootstrap.-->
+            <h1>M<span class="u">u</span>.sic</h1>
           </div>
           <div class="col-sm-1">
-            <a href="home.html">Início</a>
+            <a href="#">Home</a>
           </div>
           <div class="col-sm-1">
-            <a href="player.html">Web Player</a>
+            <a href="#">Artistas</a>
           </div>
           <div class="col-sm-1">
-            <a href="sobre.html">Sobre</a>
+            <a href="#">Sobre</a>
           </div>
           <div class="col-sm-1">
-            <a href="cadastro.html">Inscrever-se</a>
+            <a href="#">Inscreva-se</a>
           </div>
           <div class="col-sm-1">
-            <a href="entrar.html">
-              <button type="button" class="btn btn-primary button_login">
-                Entrar
-              </button></a
-            >
+            <button type="button" class="btn btn-primary button_login">
+              <!--Classes "btn", "btn-primary" e "button_login" para estilização com o Bootstrap.-->
+              Login
+            </button>
           </div>
         </div>
       </div>
@@ -100,9 +96,11 @@
       <br />
       <div class="desenvolvedores">
         <figure>
-          <a href="imagens/gato1.jpg" target="_blank"
-            ><img src="imagens/gato1.jpg" alt="Desenvolvedor1"
-          /></a>
+          <a href="imagens/gato1.jpg" target="_blank">
+            <!--É o atributo target do link, que define onde o link será aberto. O valor "_blank" indica que o link será aberto em uma nova guia ou janela do navegador -->
+            <img src="imagens/gato1.jpg" alt="Desenvolvedor1" />
+            <!--É utilizado para descrever o conteúdo de uma imagem. Ele aparece no lugar da imagem quando ela não consegue ser carregada.-->
+          </a>
           <figcaption>João Victor Bandeli</figcaption>
         </figure>
         <figure>
@@ -135,6 +133,21 @@
     <footer class="footer">
       <p>Copyright © 2023</p>
       <span id="footer-date"></span>
+      <script>
+        const footerDate = document.getElementById("footer-date");
+
+        function getCurrentDate() {
+          const date = new Date();
+          const options = { year: "numeric", month: "long", day: "numeric" };
+          return date.toLocaleDateString("pt-BR", options);
+        }
+        function updateFooterDate() {
+          footerDate.textContent = getCurrentDate();
+        }
+        updateFooterDate();
+
+        setInterval(updateFooterDate, 1000);
+      </script>
     </footer>
   </body>
 </html>

@@ -20,6 +20,7 @@ h1 {
 }
 
 ul {  
+  /*view height*/
   color: #414040;
   font-size: 2.5vh;
 }
@@ -35,12 +36,14 @@ ul {
   color: rgba(131, 56, 236, 1);
 }
 
+/**/
 .nav_row {
   display: flex;
   align-items: center;
 }
 
 .content1_text {
+  /*view weight*/
   font-size: 5vw;
   color: #ffffff;
   padding-left: 5%;
@@ -92,8 +95,9 @@ ul {
   transition-duration: 0.2s;
 }
 
+/*Função css para alterar opacidade durante o carregamento*/
 .fadein_container {
-  animation: imgAnim 2s ease 0s 1 normal forwards;
+  animation: container_anim 2s ease 0s 1 normal forwards;
 }
 
 .title1 {
@@ -198,6 +202,7 @@ ul {
 
 .carrossel {
   box-sizing: border-box;
+  /* Faz o movimento na horizontal de transição da imagem*/
   transition: transform 0.5s ease-in-out;
   transform: translateX(0);
   display: flex;
@@ -262,17 +267,19 @@ footer {
   color: #555555;
 }
 
+/*Alinhar texto no centro+ do container*/
 .footer p {
   text-align: center;
   margin: 0;
 }
 
+/*Alinhar o texto à direita*/
 .footer script {
   float: right;
 }
 
-
-@keyframes imgAnim {
+/*Função css para alterar opacidade durante o carregamento*/
+@keyframes container_anim {
   0% {
     opacity: 0;
   }

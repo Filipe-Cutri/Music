@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redefinir sua senha</title>
     <link rel="stylesheet" href="css/esqueceu_senha.css"></link>
+    <!--Aqui temos o link para possibilitar a estilização externa com CSS-->
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!--Aqui temos um link para poder adicionar o favicon-->
     <script src="script/esqueceu_senha.js"></script>
+    <!--Aqui temos um link para fazer uso do JavaScript externo-->
 </head>
 <body id="fundo">
+    <!--Aqui temos uma "id" para trazer o estilo para o "body" como um todo-->
 
     <header>
         <nav>
@@ -17,8 +21,8 @@
                 <ul>
                 </ul>
         </nav>
-
     </header>
+    <!--Aqui temos um menu horizontal, com uma lista não ordenada, um título h1 e o uso do header para definir esse item como topo da página-->
 
     <form action= "/submit-form" method="post">
         <fieldset id="sombra" class="central">
@@ -34,6 +38,6 @@
             <button type="" id="botao" onclick="ExibirAlerta()">Enviar um novo Email</button>
         </fieldset>
     </form>
-    
+    <!--Aqui temos o formulário com um titulo h1 e um h2, uma label para o Email e um botão para enviar. Além de outro botão que com o uso do JavaScript, temos uma função onclick, para avisar que outro Email irá ser enviado para o usuário-->
 </body>
 </html>

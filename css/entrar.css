@@ -8,6 +8,7 @@ body {
   font-family: "Roboto Condensed", sans-serif;
   overflow-x: hidden;
   margin: 0;
+  /*Aqui o item body do HTML está sendo alterado. Definindo a cor do fundo, fonte do texto. " overflow-x: hidden" ele controla comportamento horizontal, e o margin defini a margen do elemento */
 }
 
 nav {
@@ -19,52 +20,62 @@ nav {
   margin-bottom: 5%;
   height: 100%;
   font-size: 25px;
+  /*Esse é item do HTML do menu horizontal, que é usado para agrupar os links. 
+  Onde está sendo alterado a cor de fundo, "display: flex" permite ter um container flexível, alinhar os itens no meio, "justify-content" permite que dentro do container flexível, os itens fique alinhados horizontalmente e com espaços iguais entre si. O "padding" define o prechimento esquerdo, e o "margin-bottom" define a margem inferior, além da altura definada como 100% e a fonte com 25px  */
 }
 
 #u-music {
   color: rgba(131, 56, 236, 1);
+  /*Aqui esse ID, muda a cor da letra "U" para roxo*/
 }
 
 h1 {
   color: white;
   font-size: 40px;
+  /*Aqui é definido o titulo h1 do menu horizontal, com cor branca, e fonte tamanho 40px*/
 }
 
 ul li {
   display: inline-block;
   padding: 0px;
   margin-right: 40px;
+  /*Aqui temos o "li" da lista nao ordenada, com um "display" sendo especificado como bloco, mas fluindo como texto. E tambem um "padding" com preenchimento de 0px, e "margin-right" define a margem da lateral com 40px*/
 }
 
 a {
   color: white;
   text-decoration: none;
+  /*Aqui temos o estilo dos links do menu horizontal, definido com cor branca e sem a identificação do mesmo como um link*/
 }
 
 a:hover {
   color: rgba(131, 56, 236, 1);
   transition-duration: 0.2s;
+  /*Aqui temos a estilização do hover com a cor específica e uma transição de 0.2s*/
 }
 
 #sombra {
   background-color: black;
-  width: 1200px; /* Defina a largura do elemento */
-  height: 600px; /* Defina a altura do elemento */
-  margin: 0 auto; /* Define as margens automáticas para centralizar horizontalmente */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Define a sombra do elemento */
+  width: 1200px; 
+  height: 600px; 
+  margin: 0 auto; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 40px;
   margin-bottom: 35px;
+  /*Aqui temos um ID para estilizar uma sombra que se sobrepôem ao restante da página. Tendo a cor de fundo preta, a largura de 1200px, altura de 600px, uma margin centralizada horizontalmente, a definição da sombra em si, o arredondamento de 40px e uma margem inferior definida em 35px*/
 }
 
 #texto {
   color: #ffffff;
   font-size: 16px;
+  /*Aqui nesse ID onde estiliza o texto, com a cor branca e a fonte com 16px*/
 }
 
 .central {
   text-align: center;
   color: #ffffff;
   font-family: "Roboto Condensed", sans-serif;
+  /*Aqui temos uma classe, que centraliza os itens dentro da "sombra" com um alinhamento do texto, a cor do texto como branca e a font escolhida*/
 }
 
 #botao {
@@ -73,37 +84,47 @@ a:hover {
   font-size: 15px;
   border-radius: 50px;
   padding: 10px 50px;
-  border: 1px solid rgba(131, 56, 236, 1);
+  border: 1px solid rgba(131, 56, 236, 1);/*Aqui é definido a estilização para a borda do botão*/
   margin-bottom: 10%;
-  font-weight: bold;
+  font-weight: bold; /*Aqui é definido que o texto do botão será em negrito*/
+
+  /*Aqui temos um ID, para estilizar o botão*/
 }
 
 #botao:hover {
   background-color: rgb(155, 108, 219);
   color: white;
-  border: 1px solid rgb(155, 108, 219);
-  font-weight: bold;
+  border: 1px solid rgb(155, 108, 219);/*Aqui é definido a estilização para a borda do botão*/
+  font-weight: bold; /*Aqui é definido que o texto do botão será em negrito*/
+
+   /*Aqui temos um ID, para estilizar o hover*/
 }
 
 #link {
   font-size: 20px;
   font-weight: bold;
+
+  /*Uma ID para estilizar o link do esqueceu sua senha e do cadastro*/
 }
 
 .login {
-  display: inline-block;
-  padding: 10px 15px;
+  display: inline-block; /*Sendo especificado como bloco, mas fluindo como texto*/
+  padding: 10px 15px; /*Define o prenchimento interno do elemento, sendo 10px(superior e inferior) 15px(direita e esquerda)*/
   margin-top: 2px;
   margin-bottom: 40px;
   background-color: rgba(131, 56, 236, 1);
   color: #fff;
   text-decoration: none;
   border-radius: 50px;
-  width: 200px;
+  width: 200px;/*Define a largura do elemento*/
   height: 20px;
+
+  /*Uma classe para estilizar os 2 botões de login (Google e Facebook)*/
 }
 
 .texto-login {
   color: white;
   font-size: 15px;
+
+  /*Uma classe para estilizar o texto do login*/
 }

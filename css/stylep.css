@@ -17,7 +17,9 @@ body {
   padding: 0;
 }
 
-/*header menu superior */
+/*                          */
+/*   header menu superior   */
+/*                          */
 
 #nav_text {
   text-align: center;
@@ -56,7 +58,9 @@ header h1 {
   transition: 0.2s !important;
 }
 
-/* fixa o player */
+/*                          */
+/*      fixa o player       */
+/*                          */
 
 .player {
   position: fixed;
@@ -66,7 +70,9 @@ header h1 {
   z-index: 2;
 }
 
+/*                                         */
 /* alinha o player na horizontal e formata */
+/*                                         */
 
 .player ul {
   list-style-type: none;
@@ -90,7 +96,9 @@ header h1 {
   justify-content: center;
 }
 
-/* Albuns e artistas */
+/*                          */
+/*     Albuns e artistas    */
+/*                          */
 
 .divisa {
   background: rgb(255, 0, 110);
@@ -147,7 +155,9 @@ header h1 {
   color: white;
 }
 
+/*                          */
 /* parte do botao na imagem */
+/*                          */
 
 .botao {
   border: #00000000;
@@ -177,7 +187,9 @@ header h1 {
   opacity: 1;
 }
 
+/*                          */
 /* menu vertical a esquerda */
+/*                          */
 
 .menu-vertical {
   position: fixed;
