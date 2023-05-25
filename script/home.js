@@ -17,7 +17,6 @@ function carrossel() {
   imgs.style.transform = `translateX(${-idx * 600}px)`;
 }
 
-
 function getCurrentDate() {
   //Cria uma variável do tipo data
   const date = new Date();

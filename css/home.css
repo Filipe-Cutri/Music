@@ -19,7 +19,7 @@ h1 {
   transition-duration: 0.2s;
 }
 
-ul {  
+ul {
   /*view height*/
   color: #414040;
   font-size: 2.5vh;
@@ -36,7 +36,6 @@ ul {
   color: rgba(131, 56, 236, 1);
 }
 
-/**/
 .nav_row {
   display: flex;
   align-items: center;
